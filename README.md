@@ -1,4 +1,4 @@
-# Storia Rossoblù – Scrollytelling über die Geschichte des FC Chiasso
+# La storia rossoblù – Eine Scrollytelling-Webseite über die Geschichte des FC Chiasso
 
 Ein interaktives Scrollytelling-Projekt, das die Geschichte des FC Chiasso visualisiert.  
 Die Intro-Szene kombiniert GSAP-Animationen, ScrollTrigger, PNG-Layer, einen frei animierbaren Ball sowie Übergänge zwischen verschiedenen Spielerbildern.
