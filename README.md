@@ -19,6 +19,8 @@ Der Fokus liegt auf:
 
 Zu Beginn habe ich mich darauf konzentriert, einen klaren Plan für das Projekt zu erstellen und festzulegen, welche Fotografien ich dafür in Chiasso aufnehmen musste. Nach einem ersten Shooting in Chiasso begann ich auf dem iPad in der App Procreate damit, einen Stil für meine gezeichneten Figuren zu entwickeln. Ich entschied mich dafür, die Figuren mit einem B6-Bleistift zu zeichnen und sie anschliessend mit Wasserfarben auszumalen (siehe Abb. 1).
 
+![Animationsausschnitt](media/Zeichnung.gif)
+
 ![Alternativtext](img/Klimamonitor_Screenflow.png)
 *Prozess der Gestaltung der gezeichneten Figuren in Pro Create*
 
