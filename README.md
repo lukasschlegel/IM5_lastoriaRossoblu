@@ -21,11 +21,11 @@ Zu Beginn habe ich mich darauf konzentriert, einen klaren Plan für das Projekt 
 
 ![Animationsausschnitt](media/Zeichnung.gif)
 
-*Abb.1: Prozess der Gestaltung der gezeichneten Figuren in Pro Create*
+*Abb.1: Prozess der Gestaltung der gezeichneten Figuren in Pro Create.*
 
 Danach integrierte ich das Hintergrundbild sowie die gezeichneten Figuren direkt in meine Webseite und versuchte, einen gezeichneten Ball so zu animieren, dass er mithilfe von GSAP ScrollTrigger und Positionsdaten direkt im Browser bewegt wurde. Dieser Ansatz stellte sich jedoch als äusserst aufwendig und letztlich zu ungenau heraus. Es war sehr schwierig, die exakte Position des Balls sowie dessen Flugbahn präzise zu programmieren. Zusätzlich erwies sich die Umsetzung als problematisch in Bezug auf Responsiveness, da sich die Animation auf unterschiedlichen Bildschirmgrössen nur schwer kontrollieren liess.
 
-An einem weiteren Tag ging ich erneut in Chiasso fotografieren und hatte unter anderem die Möglichkeit, im Grotto Carlino Bilder aufzunehmen, dem ursprünglichen Grotto, in dem der FC Chiasso gegründet wurde (siehe Abb. 2). Bis auf zwei Fotografien (Historisches Bild des Campo del Gas, da der Platz nicht mehr existiert und das Foto des Fussballplatzes in Sementina, auf dem das Aufstiegsspiel in die zweite Liga stattfand), konnte ich alle Bilder selbst mit meiner Kamera aufnehmen.
+An einem weiteren Tag machte ich eine weitere Fotosession in Chiasso und hatte unter anderem die Möglichkeit, im Grotto Carlino, dem ursprünglichen Ort, in dem der FC Chiasso gegründet wurde, Bilder aufzunehmen (siehe Abb. 2). Bis auf zwei Fotografien (historisches Bild des Campo del Gas, da der Platz nicht mehr existiert sowie das Foto des Fussballplatzes in Sementina, auf dem das Aufstiegsspiel in die zweite Liga stattfand), konnte ich alle Bilder selbst mit meiner Kamera aufnehmen.
 
 ![Alternativtext](img/GrottoCarlino.jpg)
 *Abb.2: Grotto Carlino mit der Geburtsurkundentafel des FC Chiasso*
@@ -47,23 +47,23 @@ Beim Laden der Seite erscheint zudem eine kleine Loop-Animation, die die Benutze
 
 ## Schwierigkeiten
 
-- Die vielleicht grösste Herausforderung war es, die Seite performant zu gestalten. Die ursprüngliche PNG-Sequenz, die ich aus After Effects exportiert hatte, war viel zu gross (ca. 3 GB). Deshalb habe ich alle PNGs in WEBP-Dateien umgewandelt und konnte so über 90 % der ursprünglichen Dateigrösse einsparen. Schlussendlich habe ich mich für einen Ladebildschirm entschieden, der alle WEBPs vollständig lädt, bevor die Seite angezeigt wird. Dadurch kann man danach ohne Lags durch die gesamte Animation scrollen.
+- Die vielleicht grösste Herausforderung war es, die Seite performant zu gestalten. Die ursprüngliche PNG-Sequenz, die ich aus After Effects exportiert hatte, war viel zu gross (ca. 3 GB). Deshalb habe ich alle PNGs in WEBP-Dateien umgewandelt und konnte so über 90 Prozent der ursprünglichen Dateigrösse einsparen. Letztlich habe ich mich für einen Ladebildschirm entschieden, der alle WEBPs vollständig lädt, bevor die Seite angezeigt wird. Dadurch kann man danach ohne Lags durch die gesamte Animation scrollen.
 - Eine weitere Herausforderung war es, die Geschichte so zu erzählen, dass ich möglichst auf Text verzichten konnte, die Geschichte des FC Chiasso aber dennoch durch das visuelle und audiovisuelle Erlebnis verständlich wird. Hier muss ich sagen, dass es natürlich von Vorteil ist, wenn man den Club bereits kennt.
-- Beim Animieren des Balls direkt auf der Webseite mit JavaScript habe ich mir regelrecht die Zähne ausgebissen. Ich habe viele Stunden daran gearbeitet, musste aber schlussendlich einsehen, dass es mit meinem aktuellen Kenntnisstand sinnvoller ist, den Umweg über After Effects zu gehen und die Animation dort zu erstellen.
-- Auch die Seite responsive zu gestalten erwies sich als schwierig. Die Lösung, einen fixen Container mit einem festen Seitenverhältnis zu verwenden, der beim Skalieren das 16:9-Format beibehält, hat dabei deutlich geholfen.
+- Beim Animieren des Balls direkt auf der Webseite mit JavaScript habe ich mir regelrecht die Zähne ausgebissen. Ich habe viele Stunden daran gearbeitet, musste aber schliesslich einsehen, dass es mit meinem aktuellen Kenntnisstand sinnvoller ist, den Umweg über After Effects zu gehen und die Animation dort zu erstellen.
+- Auch die Seite responsive zu gestalten, erwies sich als schwierig. Die Lösung, einen fixen Container mit einem festen Seitenverhältnis zu verwenden, der beim Skalieren das 16:9-Format beibehält, hat dabei deutlich geholfen.
 
 
 ## Learnings
-- Performance ist entscheidend für das Nutzungserlebnis
+- Performance ist entscheidend für das Nutzungserlebnis.
 Besonders bei bildintensiven, scrollbasierten Animationen ist eine gute Performance zentral. Die Umwandlung der PNG-Sequenz in WEBP-Dateien und der Einsatz eines Ladebildschirms waren notwendig, um ein flüssiges Scroll-Erlebnis ohne Ruckler zu ermöglichen.
-- Komplexe Animationen lassen sich nicht immer sinnvoll direkt im Browser umsetzen
-Der Versuch, den Ball direkt mit JavaScript und GSAP zu animieren, erwies sich als zu aufwendig und ungenau. Die Entscheidung, die Animation in After Effects zu erstellen und als Bildsequenz zu exportieren, führte zu einem deutlich präziseren und zuverlässigeren Ergebnis.
-- Responsives Design bei Animationen erfordert klare Einschränkungen
+- Komplexe Animationen lassen sich nicht immer sinnvoll direkt im Browser umsetzen.
+Der Versuch, den Ball direkt mit JavaScript und GSAP zu animieren, erwies sich als zu aufwendig und zu ungenau. Die Entscheidung, die Animation in After Effects zu erstellen und als Bildsequenz zu exportieren, führte zu einem deutlich präziseren und zuverlässigeren Ergebnis.
+- Responsives Design bei Animationen erfordert klare Einschränkungen.
 Um die Animation über verschiedene Bildschirmgrössen hinweg stabil darzustellen, war es notwendig, mit einem fixen Container im Seitenverhältnis 16:9 zu arbeiten. Dies vereinfachte die Umsetzung und verhinderte Darstellungsprobleme.
-- Audio im Web bringt technische Einschränkungen mit sich
+- Audio im Web bringt technische Einschränkungen mit sich.
 Die Umsetzung von Soundkulissen zeigte, dass moderne Browser – insbesondere auf Mobile-Geräten – klare Regeln für Audio-Wiedergabe haben. Eine bewusste Benutzerinteraktion zur Aktivierung des Tons war zwingend notwendig.
-- Weniger Text erfordert stärkeres visuelles Storytelling
-Der bewusste Verzicht auf erklärenden Text machte deutlich, wie wichtig Bild, Bewegung und Sound für das Erzählen einer Geschichte sind. Gleichzeitig wurde klar, dass visuelles Storytelling auch eine gewisse Vorwissensbasis beim Publikum voraussetzt.
+- Weniger Text erfordert stärkeres visuelles Storytelling.
+Der bewusste Verzicht auf erklärenden Text machte deutlich, wie wichtig Bild, Bewegung, Sound und deren Zusammenspiel für das Erzählen einer Geschichte sind. Gleichzeitig wurde klar, dass visuelles Storytelling auch ein Vorwissen beim Publikum voraussetzt.
 
 
 ## Ressourcen
