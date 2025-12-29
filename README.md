@@ -57,17 +57,17 @@ Beim Laden der Seite erscheint zudem eine kleine Loop-Animation, die die Benutze
 
 ## Schwierigkeiten
 
-- Die vielleicht grösste Herausforderng war es, die Seite performant zu gestalten. Die ursprüngliche PNG-Sequenz fie ich aus den After effects kopeirt habe war viel zu gross (ca. 3GB) also habe ich die PNG ind WEBPs umgewandwlrt und konnte so jeweils über 90% der ursprünglichen Dateigrösse ienspraren. Ich habe mich schlussenldihc für einen Ladebildschirm entschieden, der alle WEBps lädt bevor die seite angezeigt wird, damit man dann ohne lags durch die ganze animation scrollen kann.
-- Eine Herausforderung war auch, die Geschichte so zu erzählen, dass ich möglcihst auf text verzichten konnte, aber doch durch das visuelle und audiovisuelle erlebnis die geschite der FC chiasso erzählöen konnte. Hier muss ich dagen, dass es natürlicih von vroteil ist wenn man den Club schin kennt.
-- Beim anmaieren des bals direkt auf der Webeite mit javascrit ahbe ich mir regelrecht die zähne daran ausgebissen. ich bin viele stunden darngsessen, musste aber shclussendlich einseehn, dass es mit meinem jetzigen kenntnissctand besser sit, wenn ich den umweg pber after effects mache um die aniamioin zu erstellen.
-
+- Die vielleicht grösste Herausforderung war es, die Seite performant zu gestalten. Die ursprüngliche PNG-Sequenz, die ich aus After Effects exportiert hatte, war viel zu gross (ca. 3 GB). Deshalb habe ich alle PNGs in WEBP-Dateien umgewandelt und konnte so über 90 % der ursprünglichen Dateigrösse einsparen. Schlussendlich habe ich mich für einen Ladebildschirm entschieden, der alle WEBPs vollständig lädt, bevor die Seite angezeigt wird. Dadurch kann man danach ohne Lags durch die gesamte Animation scrollen.
+- Eine weitere Herausforderung war es, die Geschichte so zu erzählen, dass ich möglichst auf Text verzichten konnte, die Geschichte des FC Chiasso aber dennoch durch das visuelle und audiovisuelle Erlebnis verständlich wird. Hier muss ich sagen, dass es natürlich von Vorteil ist, wenn man den Club bereits kennt.
+- Beim Animieren des Balls direkt auf der Webseite mit JavaScript habe ich mir regelrecht die Zähne ausgebissen. Ich habe viele Stunden daran gearbeitet, musste aber schlussendlich einsehen, dass es mit meinem aktuellen Kenntnisstand sinnvoller ist, den Umweg über After Effects zu gehen und die Animation dort zu erstellen.
+- Auch die Seite responsive zu gestalten erwies sich als schwierig. Die Lösung, einen fixen Container mit einem festen Seitenverhältnis zu verwenden, der beim Skalieren das 16:9-Format beibehält, hat dabei deutlich geholfen.
 
 ## Ressourcen
 
-- GSAP: https://greensock.com/gsap/
-- ScrollTrigger: https://greensock.com/scrolltrigger/
-- MDN Web Docs für CSS/JS Grundlagen
-- W3-Schools für CSS/JS
+- [GSAP](https://greensock.com/gsap/)
+- [ScrollTrigger](https://greensock.com/scrolltrigger/)
+- [MDN Web Docs](https://developer.mozilla.org/) – Dokumentation für CSS- und JavaScript-Grundlagen
+- [W3Schools](https://www.w3schools.com/) – Referenz und Tutorials für CSS und JavaScript
 - ChatGPT als Unterstützung beim Programmieren
 - After Effects als Quelle für die PNG-Sequenz
 - XnConvert für die Umwandlung von PNG zu WEBP
