@@ -6,13 +6,13 @@ Scrollytelling-Webprojekt mit Bildsequenz, Scrollsteuerung und Sounddesign.
 
 Dieses Projekt ist ein interaktives Scrollytelling über die Geschichte des FC Chiasso.
 Die Erzählung wird über eine animierte Bildsequenz realisiert, die durch Scrollen
-gesteuert wird und durch gezielte Soundatmosphären ergänzt wird.
+gesteuert und durch gezielte Soundatmosphären ergänzt wird.
 
-Ziel des Projekts ist es, eine lineare historische Erzählung in eine
-interaktive, visuelle Web-Erfahrung zu übersetzen.
-Der Fokus liegt auf:
-- visuellem Storytelling
-- Scroll-basierter Interaktion
+Ziel des Projekts ist es, eine Fussballvereinsgeschichte in eine
+lineare, interaktive und visuelle Web-Erfahrung zu übersetzen.
+Der Fokus liegt auf folgenden drei Schwerpunkten:
+- visuelles Storytelling
+- Scroll-basierte Interaktion
 - Sounddesign als narratives Element
 
 ## Vorgehen
