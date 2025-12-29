@@ -1,4 +1,4 @@
-# La storia rossoblù
+# La storia Rossoblù – Scrollytelling
 
 Eine Scrollytelling-Webseite, die die aussergewöhnliche Geschichte des FC Chiasso erzählt.
 
