@@ -31,9 +31,15 @@ An einem weiteren Tag ging ich erneut in Chiasso fotografieren und hatte unter a
 
 Nachdem ich alle Fotografien gesammelt hatte, bearbeitete ich diese einzeln in Photoshop, um sie stilistisch an die jeweilige Epoche anzupassen. Anschliessend entschied ich mich, die Bilder und Zeichnungen in After Effects zusammenzuführen und als PNG-Sequenz zu exportieren. Dieser Schritt brachte den grossen Vorteil mit sich, dass ich die Bewegung des Balls mithilfe von Keyframes in After Effects deutlich präziser animieren konnte (siehe Abb. 3).
 
+![Alternativtext](img/AfterEffects.png)
+*Abb.3: Animation im After Effects*
+
 Für die Webseite setzte ich das responsive Verhalten so um, dass ich einen fixen Container mit einem Seitenverhältnis von 16:9 erstellte. In diesen Container integrierte ich die PNG-Sequenz und steuerte sie mithilfe von GSAP ScrollTrigger über das Scrollen der Seite.
 
 Um das Erlebnis immersiver zu gestalten, erstellte ich zusätzlich Soundkulissen für die einzelnen Szenen mit Adobe Audition (siehe Abb. 4). Diese Sounds wurden per JavaScript anhand der jeweiligen Bildnummern passend zu den Szenen eingebunden. Zur besseren Orientierung für die Benutzer:innen integrierte ich ausserdem einen Info-Button mit Hover-Aktion, der ein Pop-up öffnet und zusätzliche Informationen über das Projekt vermittelt.
+
+![Alternativtext](img/AdobeAudition.png)
+*Abb.4: Animation im After Effects*
 
 Beim Laden der Seite erscheint zudem eine kleine Loop-Animation, die die Benutzer:innen dazu auffordert, zu scrollen, um die Animation zu starten. Zusätzlich besteht die Möglichkeit, die Geräusche über ein Lautsprecher-Symbol ein- oder auszuschalten. Beim Öffnen der Seite wird ausserdem ein Ladescreen mit Ladebalken angezeigt, der visuell vermittelt, wie lange der Ladevorgang der Bildsequenz dauert. Wird die Seite auf einem mobilen Gerät im Hochformat geöffnet, erscheint eine Meldung, die darauf hinweist, dass das Gerät gedreht werden muss, damit die Animation korrekt dargestellt werden kann.
 
