@@ -21,6 +21,7 @@ Zu Beginn habe ich mich darauf konzentriert, einen klaren Plan für das Projekt 
 
 
 ![Animationsausschnitt](media/Zeichnung.gif)
+
 *Abb.1: Prozess der Gestaltung der gezeichneten Figuren in Pro Create*
 
 
