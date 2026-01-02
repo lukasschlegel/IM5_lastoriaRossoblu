@@ -1,4 +1,4 @@
-# La storia Rossoblù – Scrollytelling
+# La storia rossoblù – Scrollytelling
 
 **Scrollytelling-Webprojekt mit Bildsequenz, Scrollsteuerung und Sounddesign.**
 
@@ -82,4 +82,4 @@ Der bewusste Verzicht auf erklärenden Text machte deutlich, wie wichtig Bild, B
   
 
 ## Live-Demo: 
-**[La storia Rossoblù – Scrollytelling](https://lukasschlegel.ch/lastoriarossoblu/index.html)**
+**[La storia rossoblù – Scrollytelling](https://lukasschlegel.ch/lastoriarossoblu/index.html)**
