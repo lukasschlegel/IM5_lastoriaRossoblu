@@ -71,6 +71,7 @@ Der bewusste Verzicht auf erklärenden Text machte deutlich, wie wichtig Bild, B
 - [ScrollTrigger](https://greensock.com/scrolltrigger/)
 - [MDN Web Docs](https://developer.mozilla.org/) – Dokumentation für CSS- und JavaScript-Grundlagen
 - [W3Schools](https://www.w3schools.com/) – Referenz und Tutorials für CSS und JavaScript
+- [Gridonic Playground]([https://www.w3schools.com/](https://playground.gridonic.io/ramon-playground/version-1) – Inspirationsquelle
 - ChatGPT als Unterstützung beim Programmieren
 - After Effects als Quelle für die PNG-Sequenz
 - XnConvert für die Umwandlung von PNG zu WEBP
