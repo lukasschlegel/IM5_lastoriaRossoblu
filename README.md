@@ -77,6 +77,7 @@ Der bewusste Verzicht auf erklärenden Text machte deutlich, wie wichtig Bild, B
 - Adobe Creative Cloud (Photoshop, After Effects, Audition)
 - XnConvert für die Umwandlung von PNG zu WEBP
 - Procreate (Ipad)
+- Pixabay (SFX)
 - Sony A7IV Kamera
 - Browser DevTools für Debugging und Performance-Analyse
 - Visual Studio Code
